@@ -1,0 +1,57 @@
+body {
+    height: 100vh; /*Establecemos la altura máxima de la web*/
+
+    margin: 0;    /*Establecemos que el punto de inicio de lectura es 0,0*/
+    padding: 0;
+
+    background-color: lightgray;  /*Establecemos el color de fondo*/
+
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto; /*The overflow-x CSS property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content.*/
+  }
+  .slide {
+    width: 600px;
+    flex-shrink: 0; /*sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink.*/
+    height: 100%;
+  }
+
+  #red1{
+    background-color: red;
+  }
+
+  #orange2{
+    background-color: orange;
+  }
+
+  #yellow3{
+    background-color: yellow;
+  }
+
+  #green4{
+    background-color: green;
+  }
+  #blue5{
+    background-color: blue;
+  }
+
+  #indigo6{
+    background-color: indigo;
+  }
+
+  #purple7{
+    background-color: purple;
+  }
+
+  p{
+    text-align: center;    
+    align-content: center;
+    text-decoration: solid;    
+  }
